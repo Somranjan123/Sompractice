@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]">
+  <test name="Nopackage(failed)">
+    <classes>
+      <class name="com.hrms.testscripts.TC002">
+        <methods>
+          <include name="tc002"/>
+        </methods>
+      </class> <!-- com.hrms.testscripts.TC002 -->
+      <class name="com.hrms.testscripts.TC001">
+        <methods>
+          <include name="tc001"/>
+        </methods>
+      </class> <!-- com.hrms.testscripts.TC001 -->
+      <class name="com.hrms.testscripts.TC005_Locations">
+        <methods>
+          <include name="tc005"/>
+        </methods>
+      </class> <!-- com.hrms.testscripts.TC005_Locations -->
+      <class name="com.hrms.testscripts.TC006_Upload_image">
+        <methods>
+          <include name="tc006"/>
+        </methods>
+      </class> <!-- com.hrms.testscripts.TC006_Upload_image -->
+      <class name="com.hrms.testscripts.TC003_Deleteemp">
+        <methods>
+          <include name="tc003"/>
+        </methods>
+      </class> <!-- com.hrms.testscripts.TC003_Deleteemp -->
+    </classes>
+  </test> <!-- Nopackage(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
