@@ -25,34 +25,35 @@ public class General extends Global{
 			driver.navigate().to(url);
 			System.out.println("Applocation Opened");  	//Printed in Console
 			Reporter.log("Application Opened");  		//Printed in html Report
-		//	Log.info("Application Opened");  			//Printed in logfile
+			Log.info("Application Opened");  			//Printed in logfile
 
 		}
 		public void closeApplication() {
 			driver.quit();
 			System.out.println("Application Closed");
 			Reporter.log("Application Closed");  		//Printed in html Report
-			//Log.info("Application Closed");  			//Printed in logfile
+			Log.info("Application Closed");  			//Printed in logfile
 			//Thread.sleep(3000);
 		}
 		public void login() throws Exception {
 	       // System.setProperty("webdriver.gecko.driver", "D:\\Eclipse Workspace Testing\\Frame_work_practice/geckodriver");
 			driver.findElement(By.name(username_textbox)).sendKeys(un);
 			driver.findElement(By.name(password_textbox)).sendKeys(pw);
-		//	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5)); 
+			//WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5)); 
 			//wait.until(ExpectedConditions. elementToBeClickable(By.name("Login_btn")));
+			
 			driver.findElement(By.name(Login_btn)).click();
 			//Thread.sleep(3000);
 			System.out.println("Login Completed");
 			Reporter.log("Login Completed");  		//Printed in html Report
-			//Log.info("Login Completed");  			//Printed in logfile
+			Log.info("Login Completed");  			//Printed in logfile
 		}
 		public void logout() throws Exception {
 			driver.findElement(By.linkText(Logout_link)).click();
 			System.out.println("Logout Completed");	
 			System.out.println("Logout");
 			Reporter.log("Logout Successful");  		//Printed in html Report
-		//	Log.info("Logout Successful");  			//Printed in logfile
+			Log.info("Logout Successful");  			//Printed in logfile
 		
 		}
 		public void add_employee() throws Exception {
@@ -76,17 +77,17 @@ public class General extends Global{
 			//driver.switchTo().frame("rightMenu");
 			Select sel = new Select(driver.findElement(By.name(Search_by)));
 			sel.selectByVisibleText("Emp. First Name");
-			Thread.sleep(3000);
+			//Thread.sleep(3000);
 			System.out.println("Clicked on visivle text Emp. First Name ");
 			driver.findElement(By.id("loc_name")).sendKeys(Fname);
-			Thread.sleep(3000);
+		//	Thread.sleep(3000);
 			driver.findElement(By.xpath(Search_for_search_btn)).click();
 			System.out.println("Clicked on Search button");
 			System.out.println("Employee name searched");
-			Thread.sleep(3000);
+		//	Thread.sleep(3000);
 			driver.findElement(By.name(Checkbox)).click();
 			driver.findElement(By.xpath(Delete_btn)).click();
-			Thread.sleep(3000);
+		//	Thread.sleep(3000);
 			System.out.println("Employee detaild deleted");
 			Reporter.log("Employee Details Deleted");  		//Printed in html Report
 			Log.info("Employee Details Deleted");  			//Printed in logfile

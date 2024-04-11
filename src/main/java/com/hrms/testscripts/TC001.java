@@ -17,7 +17,7 @@ public class TC001 {
 		obj.login();
 	//	Thread.sleep(3000);
 		obj.logout();
-		//obj.closeApplication();
+		obj.closeApplication();
 	}
 
 }

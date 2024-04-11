@@ -1,1 +1,45 @@
 2024-04-09 21:29:34,618 INFO  [Log] Application Opened 
+2024-04-10 10:02:45,629 INFO  [Log] Employee Added 
+2024-04-10 10:03:19,727 INFO  [Log] Employee Details Deleted 
+2024-04-10 10:03:40,612 INFO  [Log] First Mouseover Done 
+2024-04-10 10:03:43,804 INFO  [Log] Second Mouseover Done 
+2024-04-10 10:03:47,684 INFO  [Log] Clicked on Location Btn 
+2024-04-10 10:04:03,658 INFO  [Log] Location Saved 
+2024-04-10 10:04:40,741 INFO  [Log] Image Uploaded 
+2024-04-10 10:26:58,203 INFO  [Log] Employee Added 
+2024-04-10 10:27:32,177 INFO  [Log] Employee Details Deleted 
+2024-04-10 11:12:33,153 INFO  [Log] Employee Added 
+2024-04-10 11:13:03,772 INFO  [Log] Employee Details Deleted 
+2024-04-10 11:16:57,314 INFO  [Log] Employee Added 
+2024-04-10 11:17:31,314 INFO  [Log] Employee Details Deleted 
+2024-04-10 11:17:49,952 INFO  [Log] First Mouseover Done 
+2024-04-10 11:17:53,117 INFO  [Log] Second Mouseover Done 
+2024-04-10 11:17:56,913 INFO  [Log] Clicked on Location Btn 
+2024-04-10 11:25:48,920 INFO  [Log] Application Opened 
+2024-04-10 11:47:06,683 INFO  [Log] Application Opened 
+2024-04-10 11:47:51,284 INFO  [Log] Login Completed 
+2024-04-10 11:47:55,335 INFO  [Log] Logout Successful 
+2024-04-10 11:47:59,674 INFO  [Log] Application Closed 
+2024-04-10 11:48:13,127 INFO  [Log] Application Opened 
+2024-04-10 11:48:15,276 INFO  [Log] Login Completed 
+2024-04-10 11:48:18,789 INFO  [Log] Employee Added 
+2024-04-10 11:48:19,099 INFO  [Log] Logout Successful 
+2024-04-10 11:48:21,861 INFO  [Log] Application Closed 
+2024-04-10 11:48:31,843 INFO  [Log] Application Opened 
+2024-04-10 11:48:34,611 INFO  [Log] Login Completed 
+2024-04-10 11:48:37,975 INFO  [Log] Employee Details Deleted 
+2024-04-10 11:48:38,262 INFO  [Log] Logout Successful 
+2024-04-10 11:48:41,928 INFO  [Log] Application Closed 
+2024-04-10 11:49:15,313 INFO  [Log] Application Opened 
+2024-04-10 11:49:19,693 INFO  [Log] Login Completed 
+2024-04-10 11:49:23,003 INFO  [Log] First Mouseover Done 
+2024-04-10 11:49:26,171 INFO  [Log] Second Mouseover Done 
+2024-04-10 11:49:31,410 INFO  [Log] Clicked on Location Btn 
+2024-04-10 11:49:47,193 INFO  [Log] Location Saved 
+2024-04-10 11:49:49,323 INFO  [Log] Logout Successful 
+2024-04-10 11:49:55,343 INFO  [Log] Application Closed 
+2024-04-10 11:50:04,428 INFO  [Log] Application Opened 
+2024-04-10 11:50:07,710 INFO  [Log] Login Completed 
+2024-04-10 11:50:20,745 INFO  [Log] Image Uploaded 
+2024-04-10 11:50:21,048 INFO  [Log] Logout Successful 
+2024-04-10 11:50:23,389 INFO  [Log] Application Closed 

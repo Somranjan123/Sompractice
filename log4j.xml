@@ -1,15 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/" debug="false">
-<appender name="fileAppender" class="org.apache.log4j.FileAppender">
-<param name="Threshold" value="INFO" />
-<param name="Append" value="true" />
-<param name="File" value="logfile.log"/>
-<layout class="org.apache.log4j.PatternLayout">
-<param name="ConversionPattern" value="%d %-5p [%c{1}] %m %n" />
-</layout>
-</appender>
-<root>
-<level value="INFO"/>
-<appender-ref ref="fileAppender"/>
-</root>
+<?xml version="1.0" encoding="UTF-8" ?>
+<log4j:configuration debug="false" xmlns:log4j='http://jakarta.apache.org/log4j/'>
+
+    <appender name="STDOUT" class="org.apache.log4j.ConsoleAppender">
+    <param name="Threshold" value="WARN" />
+    <layout class="org.apache.log4j.PatternLayout">
+      <param name="ConversionPattern" value="%-5p %c : %m %d{yyyy-MM-dd HH:mm:ss.SSS} [%10r] %n"/>
+    </layout>	    
+  </appender>
+    <Loggers>
+       <logger name="ucar">
+    <level value="WARN"/>
+  </logger>
+
+  <root>
+    <level value="WARN"/>
+    <appender-ref ref="STDOUT"/>
+  </root>
+    </Loggers>
 </log4j:configuration>
